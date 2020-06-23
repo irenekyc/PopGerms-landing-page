@@ -14,7 +14,7 @@ const Header = () => {
 
         <ul className="text-sm flex-1 flex items-center justify-end">
           <li className="mr-5">B2B</li>
-          <div className="h-12 w-20 rounded-b-full bg-MainBlue text-white flex justify-center items-center">
+          <div className="h-12 w-20 rounded-b-full bg-MainBlue text-white flex justify-center text-center items-center p-4">
             <li>Get My Kit</li>
           </div>
         </ul>

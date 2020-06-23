@@ -14489,6 +14489,15 @@ video {
   transition-delay: 1000ms;
 }
 
+.linear {
+  background: linear-gradient(
+    180deg,
+    #eaf5fc 0%,
+    rgba(229, 239, 248, 0) 58.04%,
+    #e2ebf5 100%
+  );
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
