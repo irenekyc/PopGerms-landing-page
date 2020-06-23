@@ -2,9 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-screen h-screen relative">
+    <div className="w-screen h-screen relative overflow-hidden">
       <div id="bg-overlay" className="absolute top-0 left-0 w-full h-full">
-        <img src="images/bg.png" alt="PopGerms Background" />
+        <img
+          className="object-bottom"
+          src="images/bg.png"
+          alt="PopGerms Background"
+        />
       </div>
       <div
         id="content-overlay"
