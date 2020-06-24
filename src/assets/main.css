@@ -14498,6 +14498,16 @@ video {
   );
 }
 
+.linear-gray {
+  background: linear-gradient(
+    257.35deg,
+    rgba(255, 255, 255, 0) 0.72%,
+    #ffffff 45.11%,
+    #ffffff 98%,
+    #f4f0f1 98%
+  );
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;

@@ -12,3 +12,13 @@
     #e2ebf5 100%
   );
 }
+
+.linear-gray {
+  background: linear-gradient(
+    257.35deg,
+    rgba(255, 255, 255, 0) 0.72%,
+    #ffffff 45.11%,
+    #ffffff 98%,
+    #f4f0f1 98%
+  );
+}
