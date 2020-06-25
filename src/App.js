@@ -9,6 +9,7 @@ import Ingredients from "./components/Ingredients";
 import Intro from "./components/Intro";
 import ShopNow from "./components/ShopNow";
 import Testimonials from "./components/Testimonials";
+import CallToAction from "./components/CallToAction";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Intro />
       <ShopNow />
       <Testimonials />
+      <CallToAction />
     </div>
   );
 }
