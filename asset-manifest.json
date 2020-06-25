@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PopGerms-landing-page/static/css/main.ed8a0a98.chunk.css",
+    "main.js": "/PopGerms-landing-page/static/js/main.bec6bf73.chunk.js",
+    "main.js.map": "/PopGerms-landing-page/static/js/main.bec6bf73.chunk.js.map",
+    "runtime-main.js": "/PopGerms-landing-page/static/js/runtime-main.26ebf5c2.js",
+    "runtime-main.js.map": "/PopGerms-landing-page/static/js/runtime-main.26ebf5c2.js.map",
+    "static/css/2.b0d70484.chunk.css": "/PopGerms-landing-page/static/css/2.b0d70484.chunk.css",
+    "static/js/2.0aac2a9b.chunk.js": "/PopGerms-landing-page/static/js/2.0aac2a9b.chunk.js",
+    "static/js/2.0aac2a9b.chunk.js.map": "/PopGerms-landing-page/static/js/2.0aac2a9b.chunk.js.map",
+    "index.html": "/PopGerms-landing-page/index.html",
+    "precache-manifest.ba397d44186c4e4b7c5f97a65440e274.js": "/PopGerms-landing-page/precache-manifest.ba397d44186c4e4b7c5f97a65440e274.js",
+    "service-worker.js": "/PopGerms-landing-page/service-worker.js",
+    "static/css/2.b0d70484.chunk.css.map": "/PopGerms-landing-page/static/css/2.b0d70484.chunk.css.map",
+    "static/css/main.ed8a0a98.chunk.css.map": "/PopGerms-landing-page/static/css/main.ed8a0a98.chunk.css.map",
+    "static/js/2.0aac2a9b.chunk.js.LICENSE.txt": "/PopGerms-landing-page/static/js/2.0aac2a9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26ebf5c2.js",
+    "static/css/2.b0d70484.chunk.css",
+    "static/js/2.0aac2a9b.chunk.js",
+    "static/css/main.ed8a0a98.chunk.css",
+    "static/js/main.bec6bf73.chunk.js"
+  ]
+}
