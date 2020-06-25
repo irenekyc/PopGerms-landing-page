@@ -15,7 +15,7 @@ const Testimonials = () => {
       }
     } else if (e === "next") {
       console.log("next");
-      if (curTestimonial === 100) {
+      if (curTestimonial === 80) {
         return;
       } else {
         setCurTestimonial(curTestimonial + 20);
@@ -25,7 +25,7 @@ const Testimonials = () => {
 
   return (
     <div id="testimonials-section" className="w-screen py-20">
-      <div className="container flex justify-center items-center">
+      <div className="container mx-auto flex justify-center items-center">
         <div className="w-20 h-20">
           <img
             src="images/prev-btn.png"
@@ -33,7 +33,7 @@ const Testimonials = () => {
             onClick={() => sliderHandler("prev")}
           />
         </div>
-        <div className="flex-1 h-64 overflow-hidden py-8 text-center">
+        <div className="flex-1 min-h-50vh lg:h-64 overflow-hidden py-8 text-center">
           <div
             className="flex"
             style={{
@@ -44,15 +44,37 @@ const Testimonials = () => {
           >
             <div
               id="slide-1"
-              className="flex-1 h-full flex flex-col items-center justify-center px-20 text-center"
+              className="flex-1 h-full flex flex-col items-center justify-center lg:px-20 px-4 text-center"
             >
-              <div id="review" className="flex">
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <span> (2419 reviews) </span>
+              <div id="review" className="flex flex-col md:flex-row">
+                <div className="flex">
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                </div>
+                <p> (2419 reviews) </p>
               </div>
 
               <h3 id="review-product" className="text-xl py-2 text-MainBlue">
@@ -82,15 +104,38 @@ const Testimonials = () => {
               </div>
             </div>
             <div
-              id="slide-3"
-              className="flex-1 h-full flex flex-col items-center justify-center px-20 text-center"
+              id="slide-2"
+              className="flex-1 h-full flex flex-col items-center justify-center lg:px-20 px-4 text-center"
             >
-              <div id="review" className="flex">
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
+              <div id="review" className="flex flex-col md:flex-row">
+                <div className="flex">
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                </div>
+
                 <span> (2419 reviews) </span>
               </div>
 
@@ -122,15 +167,38 @@ const Testimonials = () => {
             </div>
 
             <div
-              id="slide-1"
-              className="flex-1 h-full flex flex-col items-center justify-center px-20 text-center"
+              id="slide-3"
+              className="flex-1 h-full flex flex-col items-center justify-center lg:px-20 px-4 text-center"
             >
-              <div id="review" className="flex">
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
+              <div id="review" className="flex flex-col md:flex-row">
+                <div className="flex">
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                </div>
+
                 <span> (2419 reviews) </span>
               </div>
 
@@ -163,14 +231,37 @@ const Testimonials = () => {
 
             <div
               id="slide-4"
-              className="flex-1 h-full flex flex-col items-center justify-center px-20 text-center"
+              className="flex-1 h-full flex flex-col items-center justify-center lg:px-20 px-4 text-center"
             >
-              <div id="review" className="flex">
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
+              <div id="review" className="flex flex-col md:flex-row">
+                <div className="flex">
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                </div>
+
                 <span> (2419 reviews) </span>
               </div>
 
@@ -203,14 +294,37 @@ const Testimonials = () => {
 
             <div
               id="slide-5"
-              className="flex-1 h-full flex flex-col items-center justify-center px-20 text-center"
+              className="flex-1 h-full flex flex-col items-center justify-center lg:px-20 px-4 text-center"
             >
-              <div id="review" className="flex">
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
-                <img src="images/review-star.png" alt="star" />
+              <div id="review" className="flex flex-col md:flex-row">
+                <div className="flex">
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                  <img
+                    src="images/review-star.png"
+                    alt="star"
+                    className="w-5 h-5"
+                  />
+                </div>
+
                 <span> (2419 reviews) </span>
               </div>
 

@@ -1,6 +1,4 @@
 import React from "react";
-import Annoncement from "./components/Announcement";
-import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Features2 from "./components/Feautres2";
@@ -15,8 +13,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Annoncement />
-      <Header />
       <Hero />
       <Features />
       <Features2 />

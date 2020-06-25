@@ -2,8 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="py-10 bg-white text-MainBlue ">
-      <div className="container flex flex-col justify-center items-center">
+    <div className="bg-white text-MainBlue">
+      <div
+        className="container flex flex-col justify-center items-center py-10"
+        id="footer-top"
+      >
         <img src="images/logo.png" alt="logo" className="py-5" />
         <img src="images/instagram.png" alt="instagram" className="mb-3" />
         <p className="mb-2"> @popgerms</p>
@@ -12,9 +15,9 @@ const Footer = () => {
           Stay disinfect anything, anywhere, anytime.
         </p>
       </div>
-      <div className="py-10 text-center text-black" id="footer-bottom">
-        <div className="container flex justify-between items-start">
-          <div className="max-w-xs px-5">
+      <div className="py-10 text-center text-black" id="footer-middle">
+        <div className="container flex flex-col lg:flex-row justify-between items-center lg:items-start">
+          <div className="max-w-xs mx-auto">
             <p className="font-medium text-lg mb-3 uppercase"> Shop </p>
             <ul>
               <li className="mb-3">All</li>
@@ -45,7 +48,7 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="max-w-xs px-5">
+          <div className="max-w-xs mx-auto">
             <p className="font-medium text-lg mb-3 uppercase"> About </p>
             <ul>
               <li className="mb-3">How It Works</li>
@@ -55,6 +58,14 @@ const Footer = () => {
               <li className="mb-3">Contact</li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div id="footer-bottom" className="bg-MainBlue text-white py-5">
+        <div className="container flex flex-col md:flex-row justify-around items-center">
+          <p>hello@popgerm.com</p>
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions</p>
+          <p>CopyRight 2020 PopGerm</p>
         </div>
       </div>
     </div>

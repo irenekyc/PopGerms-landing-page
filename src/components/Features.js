@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div className="w-screen h-screen linear relative text-center">
+    <div className="w-screen min-h-150vh md:min-h-screen linear relative text-center">
       <div id="bg-left-top" className="absolute top-auto left-0">
         <img src="images/dot-bg.png" alt="dot bg" />
       </div>
@@ -12,12 +12,12 @@ const Features = () => {
 
       <div
         id="content-overlay"
-        className="absolute top-0 left-0 h-full w-full flex justify-center items-center"
+        className="absolute top-0 left-0 min-h-150vh md:min-h-screen w-full flex justify-center items-center py-10"
       >
         <div id="feature-content" className="container">
           <h2 className="text-4xl mb-10"> How it works</h2>
-          <div className="flex w-full justify-between items-starts ">
-            <div className="flex flex-col items-center w-3/12">
+          <div className="flex w-full justify-center items-start flex-wrap lg:justify-between">
+            <div className="max-w-xs flex-col items-center p-8">
               <img
                 className="h-56 w-56"
                 src="images/features.png"
@@ -27,7 +27,7 @@ const Features = () => {
               <h5 className="text-2xl font-mediumn mb-2"> Water</h5>
               <p> Fill your popgerm with water </p>
             </div>
-            <div className="flex flex-col items-center w-3/12">
+            <div className="max-w-xs flex-col items-center p-8">
               <img
                 className="h-56 w-56"
                 src="images/features.png"
@@ -37,7 +37,7 @@ const Features = () => {
               <h5 className="text-2xl font-mediumn mb-2"> Salt</h5>
               <p> Add a teaspoon of kitchen salt </p>
             </div>
-            <div className="flex flex-col items-center w-3/12">
+            <div className="flex-col items-center max-w-xs p-8">
               <img
                 className="h-56 w-56"
                 src="images/features.png"

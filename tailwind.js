@@ -211,7 +211,7 @@ module.exports = {
     container: {
       MaxWidth: "1080px",
       center: true,
-      Width: "80%",
+      Width: "80vw",
     },
     cursor: {
       auto: "auto",
@@ -356,6 +356,9 @@ module.exports = {
     }),
     minHeight: {
       "0": "0",
+      "80vh": "80vh",
+      "150vh": "150vh",
+      "50vh": "50vh",
       full: "100%",
       screen: "100vh",
     },

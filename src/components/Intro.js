@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="relative w-screen h-screen py-10 overflow-hidden ">
+    <div className="relative w-screen min-h-80vh py-10 overflow-hidden ">
       <div id="bg-overlay" className="absolute h-full w-1/2 right-0 top-0">
         {/* <img
           src="images/bg-2.png"
@@ -12,17 +12,17 @@ const Intro = () => {
       </div>
       <div
         id="content-overlay"
-        className="absolute w-full h-full top-0 left-0 py-10"
+        className="absolute w-full h-full top-0 left-0 py-10 flex justify-center items-center"
       >
-        <div className="container mx-auto">
-          <h2 className="text-4xl mb-10"> A Clean Cleaning Solution </h2>
-          <p className="w-9/12 mb-10">
+        <div className="container mx-auto text-center">
+          <h2 className="text-4xl mb-10 "> A Clean Cleaning Solution </h2>
+          <p className="w-9/12 mb-10 mx-auto">
             {" "}
             Allergen-Free, No Chemical Residue, Cruelty-Free, Vegan,
             Fragrance-Free, Alcohol-Free, Ammonia-Free, Non-Toxic, Safety
             without Compromise
           </p>
-          <div className="flex justify-between items-start w-8/12 py-10">
+          <div className="flex justify-between items-start w-8/12 py-10 mx-auto">
             <div className="flex-1 py-10 flex flex-col items-center text-center">
               <img
                 src="images/footprint 1.png"

@@ -3,7 +3,10 @@ import React from "react";
 const Magic = () => {
   return (
     <div className="container py-20">
-      <div id="magic-1" className="flex justify-center items-center mb-10">
+      <div
+        id="magic-1"
+        className="flex flex-col lg:flex-row justify-center items-center mb-10"
+      >
         <div id="magic-image-1">
           <img
             src="images/magic-1.png"
@@ -13,7 +16,7 @@ const Magic = () => {
         </div>
         <div
           id="magic-content-1"
-          className="flex flex-col items-center px-10 flex-1 text-center"
+          className="flex flex-col items-center px-10 flex-1 text-center py-5"
         >
           <img
             src="images/magic-stars.png"
@@ -40,7 +43,7 @@ const Magic = () => {
 
       <div
         id="magic-2"
-        className="flex flex-row-reverse justify-center items-center mb-10"
+        className="flex flex-col lg:flex-row-reverse justify-center items-center mb-10"
       >
         <div id="magic-image-2">
           <img
@@ -51,7 +54,7 @@ const Magic = () => {
         </div>
         <div
           id="magic-content-1"
-          className="flex flex-col items-center px-10 flex-1 text-center"
+          className="flex flex-col items-center px-10 flex-1 text-center py-5"
         >
           <img
             src="images/magic-stars.png"
@@ -77,17 +80,20 @@ const Magic = () => {
         </div>
       </div>
 
-      <div id="magic-3" className="flex justify-center items-center mb-10">
+      <div
+        id="magic-3"
+        className="flex flex-col lg:flex-row justify-center items-center mb-10"
+      >
         <div id="magic-image-3">
           <img
             src="images/magic-3.png"
             alt="all-in-one-solution"
-            className="flex-1"
+            className="flex-1 lg:mb-10"
           />
         </div>
         <div
           id="magic-content-1"
-          className="flex flex-col items-center px-10 flex-1 text-center"
+          className="flex flex-col items-center px-10 flex-1 text-center py-5"
         >
           <img
             src="images/magic-stars.png"

@@ -2,12 +2,12 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <div className="relative w-screen h-64 py-4 overflow-hidden">
-      <div className="absolute h-full w-full top-0 left-0">
-        <img src="images/cta-bg.png" alt="background" />
-      </div>
-      <div className="absolute h-full w-full top-0 left-0 flex flex-col justify-center items-center">
-        <h2 className="text-4xl text-white font-bold mb-10">
+    <div
+      className=" w-screen h-64 bg-cover"
+      style={{ backgroundImage: "url('images/cta-bg.png')" }}
+    >
+      <div className="h-full w-full flex flex-col justify-center items-center text-center">
+        <h2 className="text-2xl lg:text-4xl text-white font-bold mb-2 lg:mb-4">
           {" "}
           Healthier, Safer and Eco-Friendlier{" "}
         </h2>
