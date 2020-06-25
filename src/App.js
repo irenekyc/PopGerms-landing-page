@@ -8,6 +8,7 @@ import Magic from "./components/Magic";
 import Ingredients from "./components/Ingredients";
 import Intro from "./components/Intro";
 import ShopNow from "./components/ShopNow";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Ingredients />
       <Intro />
       <ShopNow />
+      <Testimonials />
     </div>
   );
 }
